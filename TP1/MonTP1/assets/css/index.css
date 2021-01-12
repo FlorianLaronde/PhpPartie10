@@ -1,0 +1,55 @@
+body {
+    background-color: darkturquoise;
+    opacity: 0.8;
+}
+  
+label, legend {
+    color: white;
+}
+
+  
+button:hover {
+    transform: scale(1.3);
+    transition-duration: 500ms;
+}
+  
+input, select, textarea{
+    color: #ff0000;
+}
+
+textarea:focus, input:focus {
+    color: #ff0000;
+}
+
+  
+
+
+/* Input formulaire */
+input:invalid {
+      border: 2px dashed red;
+    }
+    
+input:valid {
+    border: 2px solid green;
+}
+  
+/* Select formulaire */
+select:invalid {
+    border: 2px dashed red;
+}
+    
+select:valid {
+    border: 2px solid green;
+}
+  
+/* textarea formulaire */
+textarea:invalid {
+     border: 2px dashed red;
+}
+    
+textarea:valid {
+    border: 2px solid green;
+}
+  
+    
+  
